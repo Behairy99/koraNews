@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jeYIjEw7rdsJD04i8p6P75zLfUeglC2MeqhBaePCvoXVbYkXw3OC/u+SZOKykpHNp+jeqNsRa7M9InDxN2eBpg==",
+  "dgSpecHash": "EfciDwk83YEOCCM85pdPaluZXvoCIzT21SeGogd72vd5ISc2BPHb+2JZNThGTTnkSXEWESbMwIF1YNv+GuUWAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\OneDrive\\Desktop\\gggggggggggg\\FirstCoreApp\\FirstCoreApp\\FirstCoreApp.csproj",
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\final\\FirstCoreApp\\FirstCoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.1\\microsoft.aspnetcore.authentication.google.5.0.1.nupkg.sha512",
