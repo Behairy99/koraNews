@@ -33,7 +33,8 @@
     ".NETCoreApp,Version=v5.0": {
       "FirstCoreApp/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Google": "5.0.16",
+          "Microsoft.AspNetCore.Authentication.Google": "5.0.1",
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": "5.0.4",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.15",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.16",
           "Microsoft.AspNetCore.Identity.UI": "5.0.16",
@@ -333,15 +334,26 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.Google/5.0.16": {
+      "Microsoft.AspNetCore.Authentication.Google/5.0.1": {
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {
-            "assemblyVersion": "5.0.16.0",
-            "fileVersion": "5.0.1622.16706"
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.120.60107"
           }
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/5.0.4": {
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {
+            "assemblyVersion": "5.0.4.0",
+            "fileVersion": "5.0.421.11815"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.16": {
@@ -3649,12 +3661,19 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.Google/5.0.16": {
+    "Microsoft.AspNetCore.Authentication.Google/5.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AEvg/Rxq9LFSRcOEINhxriUWzOWoUEJEl/AwfQdgfB9BHOtuAT6EDGEza0tcHkHS0A2MM+AakiSP294m59tYWA==",
-      "path": "microsoft.aspnetcore.authentication.google/5.0.16",
-      "hashPath": "microsoft.aspnetcore.authentication.google.5.0.16.nupkg.sha512"
+      "sha512": "sha512-uXkeo9NtDlkXmNIqtLZ6tLtUFpMEfOI4rCTNAE9hsTj9cLexeMgiYv1Kp3bDNzAeDdpllx7KzsZjCnR5kIZqDw==",
+      "path": "microsoft.aspnetcore.authentication.google/5.0.1",
+      "hashPath": "microsoft.aspnetcore.authentication.google.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZymJXd6toG6j6DZqabyfErAI4qugO5dXCVfkCOMfurnTeDeVq8ZGD0bpyt7mA5IA8RI9roB3tncEBBLudPWq6w==",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/5.0.4",
+      "hashPath": "microsoft.aspnetcore.authentication.microsoftaccount.5.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.16": {
       "type": "package",

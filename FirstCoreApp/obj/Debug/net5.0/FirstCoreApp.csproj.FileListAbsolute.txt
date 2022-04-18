@@ -448,3 +448,4 @@ C:\Users\PC\OneDrive\Desktop\gggggggggggg\FirstCoreApp\FirstCoreApp\bin\Debug\ne
 C:\Users\PC\OneDrive\Desktop\gggggggggggg\FirstCoreApp\FirstCoreApp\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\PC\OneDrive\Desktop\gggggggggggg\FirstCoreApp\FirstCoreApp\obj\Debug\net5.0\Razor\Views\Home\Players.cshtml.g.cs
 C:\Users\PC\OneDrive\Desktop\gggggggggggg\FirstCoreApp\FirstCoreApp\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\PC\OneDrive\Desktop\gggggggggggg\FirstCoreApp\FirstCoreApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll

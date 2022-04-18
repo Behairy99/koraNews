@@ -11,13 +11,25 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.Google/5.0.16": {
+      "Microsoft.AspNetCore.Authentication.Google/5.0.1": {
         "type": "package",
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/5.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -2217,10 +2229,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.Google/5.0.16": {
-      "sha512": "AEvg/Rxq9LFSRcOEINhxriUWzOWoUEJEl/AwfQdgfB9BHOtuAT6EDGEza0tcHkHS0A2MM+AakiSP294m59tYWA==",
+    "Microsoft.AspNetCore.Authentication.Google/5.0.1": {
+      "sha512": "uXkeo9NtDlkXmNIqtLZ6tLtUFpMEfOI4rCTNAE9hsTj9cLexeMgiYv1Kp3bDNzAeDdpllx7KzsZjCnR5kIZqDw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.google/5.0.16",
+      "path": "microsoft.aspnetcore.authentication.google/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2228,8 +2240,23 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.dll",
         "lib/net5.0/Microsoft.AspNetCore.Authentication.Google.xml",
-        "microsoft.aspnetcore.authentication.google.5.0.16.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.5.0.1.nupkg.sha512",
         "microsoft.aspnetcore.authentication.google.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/5.0.4": {
+      "sha512": "ZymJXd6toG6j6DZqabyfErAI4qugO5dXCVfkCOMfurnTeDeVq8ZGD0bpyt7mA5IA8RI9roB3tncEBBLudPWq6w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/5.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.xml",
+        "microsoft.aspnetcore.authentication.microsoftaccount.5.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.microsoftaccount.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.16": {
@@ -7610,7 +7637,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.AspNetCore.Authentication.Google >= 5.0.16",
+      "Microsoft.AspNetCore.Authentication.Google >= 5.0.1",
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount >= 5.0.4",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.15",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.16",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.16",
@@ -7661,7 +7689,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
-            "version": "[5.0.16, )"
+            "version": "[5.0.1, )"
+          },
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+            "target": "Package",
+            "version": "[5.0.4, )"
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",

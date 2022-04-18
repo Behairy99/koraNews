@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hqllQesBVSkl/z1ODodD3dMW8TlEQDEnxVwPd94KASVOOU5TgY0MiZTVDw2E8IT85GOjIzZ1rPY2tvdQAuA+eA==",
+  "dgSpecHash": "jeYIjEw7rdsJD04i8p6P75zLfUeglC2MeqhBaePCvoXVbYkXw3OC/u+SZOKykpHNp+jeqNsRa7M9InDxN2eBpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\OneDrive\\Desktop\\gggggggggggg\\FirstCoreApp\\FirstCoreApp\\FirstCoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.16\\microsoft.aspnetcore.authentication.google.5.0.16.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.1\\microsoft.aspnetcore.authentication.google.5.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.microsoftaccount\\5.0.4\\microsoft.aspnetcore.authentication.microsoftaccount.5.0.4.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.16\\microsoft.aspnetcore.cryptography.internal.5.0.16.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.16\\microsoft.aspnetcore.cryptography.keyderivation.5.0.16.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.15\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.15.nupkg.sha512",

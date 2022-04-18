@@ -48,14 +48,25 @@ namespace FirstCoreApp
             //services.AddRazorPages();
             IServiceCollection serviceCollection = services.AddLogging();
             //////////////////////////////////////////////////////////////////////////
-           /* services.AddAuthentication()
-                .AddGoogle(options=>
+            services.AddAuthentication()
+                .AddGoogle(options =>
                 {
                     IConfigurationSection googleAuthSection = Configuration.GetSection("Authentication:Google");
+
                     options.ClientId = googleAuthSection["ClientId"];
                     options.ClientSecret = googleAuthSection["ClientSecret"];
-                }
-                );*/
+                })
+                /*.AddFacebook(facebookOptions =>
+                {
+                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                })*/
+                .AddMicrosoftAccount(microsoftOptions =>
+                {
+                    microsoftOptions.ClientId = Configuration["Authentication:Microsoft:ClientId"];
+                    microsoftOptions.ClientSecret = Configuration["Authentication:Microsoft:ClientSecret"];
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
